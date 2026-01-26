@@ -1,0 +1,103 @@
+{
+  "$schema": "./index.schema.json",
+  "https://humancompatible.ai": {
+    "id": "chai",
+    "name": "Center for Human-Compatible AI",
+    "variants": {
+      "canonical": {
+        "color": "color.png",
+        "white": "white.png"
+      }
+    }
+  },
+  "https://cesia.org": {
+    "id": "cesia",
+    "name": "CESIA",
+    "variants": {
+      "canonical": {
+        "color": "color.svg",
+        "white": "white.svg"
+      }
+    }
+  },
+  "https://coefficientgiving.org/": {
+    "id": "coefficientgiving",
+    "name": "Coefficient",
+    "variants": {
+      "canonical": {
+        "color": "color.svg",
+        "white": "white.svg"
+      }
+    }
+  },
+  "https://matsprogram.org": {
+    "id": "matsprogram",
+    "name": "MATS",
+    "variants": {
+      "canonical": {
+        "color": "color.svg",
+        "white": "white.svg"
+      }
+    }
+  },
+  "https://www.redwoodresearch.org/": {
+    "id": "redwoodresearch",
+    "name": "Redwood Research",
+    "variants": {
+      "canonical": {
+        "color": "color.svg",
+        "white": "white.svg"
+      }
+    }
+  },
+  "https://www.safer-ai.org/": {
+    "id": "saferai",
+    "name": "Safer AI",
+    "variants": {
+      "canonical": {
+        "color": "color.svg",
+        "white": "white.svg"
+      }
+    }
+  },
+  "https://foreview.org": {
+    "id": "foreview",
+    "name": "Foreview",
+    "variants": {
+      "canonical": {
+        "color": "color.svg",
+        "white": "white.svg"
+      }
+    }
+  },
+  "https://aisi.gov.uk/": {
+    "id": "uk-aisi",
+    "name": "UK AI Safety Institute",
+    "variants": {
+      "canonical": {
+        "color": "color.svg",
+        "white": "white.svg"
+      }
+    }
+  },
+  "https://futureoflife.org": {
+    "id": "futureoflife",
+    "name": "Future of Life Institute",
+    "variants": {
+      "canonical": {
+        "color": "color.svg",
+        "white": "white.svg"
+      }
+    }
+  },
+  "https://ml4good.org": {
+    "id": "ml4good",
+    "name": "ML4Good",
+    "variants": {
+      "canonical": {
+        "color": "color.svg",
+        "white": "white.svg"
+      }
+    }
+  }
+}

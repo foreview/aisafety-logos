@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "index.schema.json",
+  "title": "AI Safety Logos Index",
+  "description": "Index of AI safety organization logos and their variants",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string"
+    }
+  },
+  "patternProperties": {
+    "^https?://": {
+      "$ref": "#/$defs/organization"
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "organization": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the organization"
+        },
+        "name": {
+          "type": "string",
+          "description": "Human-readable name of the organization"
+        },
+        "variants": {
+          "type": "object",
+          "description": "Logo variants available for the organization",
+          "properties": {
+            "canonical": {
+              "$ref": "#/$defs/logoVariant",
+              "description": "The primary/default logo"
+            }
+          },
+          "required": ["canonical"],
+          "additionalProperties": {
+            "$ref": "#/$defs/logoVariant"
+          }
+        }
+      },
+      "required": ["id", "name", "variants"],
+      "additionalProperties": false
+    },
+    "logoVariant": {
+      "type": "object",
+      "description": "A logo variant with color and white versions",
+      "properties": {
+        "color": {
+          "type": "string",
+          "description": "Filename of the color version"
+        },
+        "white": {
+          "type": "string",
+          "description": "Filename of the white version"
+        }
+      },
+      "required": ["color", "white"],
+      "additionalProperties": false
+    }
+  }
+}
