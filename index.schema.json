@@ -19,13 +19,16 @@
     "organization": {
       "type": "object",
       "properties": {
-        "id": {
+        "canonicalName": {
           "type": "string",
-          "description": "Unique identifier for the organization"
+          "description": "The canonical/official name of the organization"
         },
-        "name": {
-          "type": "string",
-          "description": "Human-readable name of the organization"
+        "names": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Alternative names or aliases for the organization"
         },
         "variants": {
           "type": "object",
@@ -42,7 +45,7 @@
           }
         }
       },
-      "required": ["id", "name", "variants"],
+      "required": ["canonicalName", "variants"],
       "additionalProperties": false
     },
     "logoVariant": {

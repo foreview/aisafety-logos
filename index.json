@@ -1,102 +1,110 @@
 {
   "$schema": "./index.schema.json",
   "https://humancompatible.ai": {
-    "id": "chai",
-    "name": "Center for Human-Compatible AI",
+    "canonicalName": "Center for Human-Compatible AI",
     "variants": {
       "canonical": {
-        "color": "color.png",
-        "white": "white.png"
+        "color": "chai/color.png",
+        "white": "chai/white.png"
       }
     }
   },
   "https://cesia.org": {
-    "id": "cesia",
-    "name": "CESIA",
+    "canonicalName": "French Center for AI Safety",
     "variants": {
       "canonical": {
-        "color": "color.svg",
-        "white": "white.svg"
+        "color": "cesia/color.svg",
+        "white": "cesia/white.svg"
       }
     }
   },
   "https://coefficientgiving.org/": {
-    "id": "coefficientgiving",
-    "name": "Coefficient",
+    "canonicalName": "Coefficient Giving",
     "variants": {
       "canonical": {
-        "color": "color.svg",
-        "white": "white.svg"
+        "color": "coefficientgiving/color.svg",
+        "white": "coefficientgiving/white.svg"
       }
     }
   },
   "https://matsprogram.org": {
-    "id": "matsprogram",
-    "name": "MATS",
+    "canonicalName": "MATS",
     "variants": {
       "canonical": {
-        "color": "color.svg",
-        "white": "white.svg"
+        "color": "mats/color.svg",
+        "white": "mats/white.svg"
       }
     }
   },
   "https://www.redwoodresearch.org/": {
-    "id": "redwoodresearch",
-    "name": "Redwood Research",
+    "canonicalName": "Redwood Research",
     "variants": {
       "canonical": {
-        "color": "color.svg",
-        "white": "white.svg"
+        "color": "redwood/color.svg",
+        "white": "redwood/white.svg"
       }
     }
   },
   "https://www.safer-ai.org/": {
-    "id": "saferai",
-    "name": "Safer AI",
+    "canonicalName": "Safer AI",
     "variants": {
       "canonical": {
-        "color": "color.svg",
-        "white": "white.svg"
+        "color": "saferai/color.svg",
+        "white": "saferai/white.svg"
       }
     }
   },
   "https://foreview.org": {
-    "id": "foreview",
-    "name": "Foreview",
+    "canonicalName": "Foreview",
     "variants": {
       "canonical": {
-        "color": "color.svg",
-        "white": "white.svg"
+        "color": "foreview/color.svg",
+        "white": "foreview/white.svg"
       }
     }
   },
   "https://aisi.gov.uk/": {
-    "id": "uk-aisi",
-    "name": "UK AI Safety Institute",
+    "canonicalName": "UK AI Safety Institute",
     "variants": {
       "canonical": {
-        "color": "color.svg",
-        "white": "white.svg"
+        "color": "uk-aisi/color.svg",
+        "white": "uk-aisi/white.svg"
       }
     }
   },
   "https://futureoflife.org": {
-    "id": "futureoflife",
-    "name": "Future of Life Institute",
+    "canonicalName": "Future of Life Institute",
     "variants": {
       "canonical": {
-        "color": "color.svg",
-        "white": "white.svg"
+        "color": "futureoflife/color.svg",
+        "white": "futureoflife/white.svg"
       }
     }
   },
   "https://ml4good.org": {
-    "id": "ml4good",
-    "name": "ML4Good",
+    "canonicalName": "ML4Good",
     "variants": {
       "canonical": {
-        "color": "color.svg",
-        "white": "white.svg"
+        "color": "ml4good/color.svg",
+        "white": "ml4good/white.svg"
+      }
+    }
+  },
+  "https://youth-ai.org": {
+    "canonicalName": "Youth AI",
+    "variants": {
+      "canonical": {
+        "color": "youthai/color.svg",
+        "white": "youthai/white.svg"
+      }
+    }
+  },
+  "https://encode.org": {
+    "canonicalName": "Encode",
+    "variants": {
+      "canonical": {
+        "color": "encode/color.svg",
+        "white": "encode/white.svg"
       }
     }
   }
