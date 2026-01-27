@@ -4,8 +4,8 @@
     "canonicalName": "Center for Human-Compatible AI",
     "variants": {
       "canonical": {
-        "color": "chai/color.png",
-        "white": "chai/white.png"
+        "color": "chai/color_20260127.png",
+        "white": "chai/white_20260127.png"
       }
     }
   },
@@ -13,8 +13,8 @@
     "canonicalName": "French Center for AI Safety",
     "variants": {
       "canonical": {
-        "color": "cesia/color.svg",
-        "white": "cesia/white.svg"
+        "color": "cesia/color_20260127.svg",
+        "white": "cesia/white_20260127.svg"
       }
     }
   },
@@ -22,8 +22,8 @@
     "canonicalName": "Coefficient Giving",
     "variants": {
       "canonical": {
-        "color": "coefficientgiving/color.svg",
-        "white": "coefficientgiving/white.svg"
+        "color": "coefficientgiving/color_20260127.svg",
+        "white": "coefficientgiving/white_20260127.svg"
       }
     }
   },
@@ -31,8 +31,8 @@
     "canonicalName": "MATS",
     "variants": {
       "canonical": {
-        "color": "mats/color.svg",
-        "white": "mats/white.svg"
+        "color": "mats/color_20260127.svg",
+        "white": "mats/white_20260127.svg"
       }
     }
   },
@@ -40,8 +40,8 @@
     "canonicalName": "Redwood Research",
     "variants": {
       "canonical": {
-        "color": "redwood/color.svg",
-        "white": "redwood/white.svg"
+        "color": "redwood/color_20260127.svg",
+        "white": "redwood/white_20260127.svg"
       }
     }
   },
@@ -49,8 +49,8 @@
     "canonicalName": "Safer AI",
     "variants": {
       "canonical": {
-        "color": "saferai/color.svg",
-        "white": "saferai/white.svg"
+        "color": "saferai/color_20260127.svg",
+        "white": "saferai/white_20260127.svg"
       }
     }
   },
@@ -58,8 +58,8 @@
     "canonicalName": "Foreview",
     "variants": {
       "canonical": {
-        "color": "foreview/color.svg",
-        "white": "foreview/white.svg"
+        "color": "foreview/color_20260127.svg",
+        "white": "foreview/white_20260127.svg"
       }
     }
   },
@@ -67,8 +67,8 @@
     "canonicalName": "UK AI Safety Institute",
     "variants": {
       "canonical": {
-        "color": "uk-aisi/color.svg",
-        "white": "uk-aisi/white.svg"
+        "color": "uk-aisi/color_20260127.svg",
+        "white": "uk-aisi/white_20260127.svg"
       }
     }
   },
@@ -76,8 +76,8 @@
     "canonicalName": "Future of Life Institute",
     "variants": {
       "canonical": {
-        "color": "futureoflife/color.svg",
-        "white": "futureoflife/white.svg"
+        "color": "futureoflife/color_20260127.svg",
+        "white": "futureoflife/white_20260127.svg"
       }
     }
   },
@@ -85,8 +85,8 @@
     "canonicalName": "ML4Good",
     "variants": {
       "canonical": {
-        "color": "ml4good/color.svg",
-        "white": "ml4good/white.svg"
+        "color": "ml4good/color_20260127.svg",
+        "white": "ml4good/white_20260127.svg"
       }
     }
   },
@@ -94,8 +94,8 @@
     "canonicalName": "Youth AI",
     "variants": {
       "canonical": {
-        "color": "youthai/color.svg",
-        "white": "youthai/white.svg"
+        "color": "youthai/color_20260127.svg",
+        "white": "youthai/white_20260127.svg"
       }
     }
   },
@@ -103,8 +103,8 @@
     "canonicalName": "Encode",
     "variants": {
       "canonical": {
-        "color": "encode/color.svg",
-        "white": "encode/white.svg"
+        "color": "encode/color_20260127.svg",
+        "white": "encode/white_20260127.svg"
       }
     }
   },
@@ -112,8 +112,8 @@
     "canonicalName": "AI Safety Atlas",
     "variants": {
       "canonical": {
-        "color": "ai-safety-atlas/color.png",
-        "white": "ai-safety-atlas/white.png"
+        "color": "ai-safety-atlas/color_20260127.png",
+        "white": "ai-safety-atlas/white_20260127.png"
       }
     }
   },
@@ -121,8 +121,8 @@
     "canonicalName": "Pivotal Contest",
     "variants": {
       "canonical": {
-        "color": "pivotalcontest/color.svg",
-        "white": "pivotalcontest/white.svg"
+        "color": "pivotalcontest/color_20260127.svg",
+        "white": "pivotalcontest/white_20260127.svg"
       }
     }
   }

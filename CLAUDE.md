@@ -1,3 +1,11 @@
+### Fetching things
+
+The WebFetch tool does not give you access to the code. Use curl when you're looking for the code and WebFetch when you're looking for information.
+
+### Working with image data
+
+Never manipulate image data or SVGs manually, always run little scripts `uv run --with ... script.py` or commands. Always check that SVGs are not PNGs in disguise check for `<image>` tags, etc.
+
 ### Adding a new logo
 
 Add its canonical url with scheme to <index.json>, it servers as its unique identifier.
