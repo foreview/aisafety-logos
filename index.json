@@ -116,5 +116,14 @@
         "white": "ai-safety-atlas/white.png"
       }
     }
+  },
+  "https://pivotalcontest.org": {
+    "canonicalName": "Pivotal Contest",
+    "variants": {
+      "canonical": {
+        "color": "pivotalcontest/color.svg",
+        "white": "pivotalcontest/white.svg"
+      }
+    }
   }
 }
