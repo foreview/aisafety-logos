@@ -107,5 +107,14 @@
         "white": "encode/white.svg"
       }
     }
+  },
+  "https://ai-safety-atlas.com": {
+    "canonicalName": "AI Safety Atlas",
+    "variants": {
+      "canonical": {
+        "color": "ai-safety-atlas/color.png",
+        "white": "ai-safety-atlas/white.png"
+      }
+    }
   }
 }
