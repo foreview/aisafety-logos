@@ -30,28 +30,31 @@
           },
           "description": "Alternative names or aliases for the organization"
         },
+        "canonical": {
+          "type": "string",
+          "description": "Key of the default/primary variant in variants object"
+        },
         "variants": {
           "type": "object",
           "description": "Logo variants available for the organization",
-          "properties": {
-            "canonical": {
-              "$ref": "#/$defs/logoVariant",
-              "description": "The primary/default logo"
-            }
-          },
-          "required": ["canonical"],
+          "minProperties": 1,
           "additionalProperties": {
             "$ref": "#/$defs/logoVariant"
           }
         }
       },
-      "required": ["canonicalName", "variants"],
+      "required": ["canonicalName", "canonical", "variants"],
       "additionalProperties": false
     },
     "logoVariant": {
       "type": "object",
       "description": "A logo variant with color and white versions",
       "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["mark", "wordmark", "lockup"],
+          "description": "Logo composition: mark (symbol only), wordmark (text only), lockup (symbol + text)"
+        },
         "color": {
           "$ref": "#/$defs/fileList",
           "description": "Color version files, ordered by fidelity (vector first)"
@@ -61,7 +64,7 @@
           "description": "White version files, ordered by fidelity (vector first)"
         }
       },
-      "required": ["color", "white"],
+      "required": ["type", "color", "white"],
       "additionalProperties": false
     },
     "fileList": {

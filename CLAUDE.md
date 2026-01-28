@@ -4,7 +4,7 @@ The WebFetch tool does not give you access to the code. Use curl when you're loo
 
 ### Working with image data
 
-Never manipulate image data or SVGs manually, always run little scripts `uv run --with ... script.py` or commands. Always check that SVGs are not PNGs in disguise check for `<image>` tags, etc.
+Never manipulate image data or SVGs manually, always run little scripts `uv run --with ... script.py` or commands. Always check that SVGs are not PNGs in disguise check for `<image>` tags, etc. For permanent scripts, look at the existing ones in `scripts/` and follow their conventions. 
 
 ### Adding a new logo
 
@@ -14,7 +14,9 @@ The canonical name is whatever most people say when mentionning them. Ask the us
 
 You must provide at least one canonical variant for logos with a color and white version. If there is no white version, ask the user for it, unless you can trivially generate it.
 
-If the file is a SVG, optimize it with `pnpm dlx svgo input.svg -o optimized.svg`, then verify with `./scripts/svg_diff.py input.svg optimized.svg`. Exit code 0 means identical, 1 means differences found. View the diff image in `/tmp` to inspect any changes.
+If the file is a SVG, optimize it with `pnpm dlx svgo input.svg -o optimized.svg`, then verify with `./scripts/svg_diff.py input.svg optimized.svg`. Exit code 0 means identical, 1 means differences found. View the diff image in `/tmp` to inspect any changes. 
+
+Then run uv run ./scripts/sync_logos.py which generates PNGs for SVGs (at a 512px target height) and updates the width+height attributes for SVGs.
 
 Then validate the JSON is correct: `uvx check-jsonschema --schemafile index.schema.json index.json`
 

@@ -2,8 +2,10 @@
   "$schema": "./index.schema.json",
   "https://humancompatible.ai": {
     "canonicalName": "Center for Human-Compatible AI",
+    "canonical": "default",
     "variants": {
-      "canonical": {
+      "default": {
+        "type": "lockup",
         "color": [
           {
             "file": "logos/chai/color_20260127.png",
@@ -25,8 +27,10 @@
   },
   "https://cesia.org": {
     "canonicalName": "French Center for AI Safety",
+    "canonical": "default",
     "variants": {
-      "canonical": {
+      "default": {
+        "type": "lockup",
         "color": [
           {
             "file": "logos/cesia/color_20260127.svg",
@@ -60,8 +64,10 @@
   },
   "https://coefficientgiving.org/": {
     "canonicalName": "Coefficient Giving",
+    "canonical": "default",
     "variants": {
-      "canonical": {
+      "default": {
+        "type": "wordmark",
         "color": [
           {
             "file": "logos/coefficientgiving/color_20260127.svg",
@@ -95,8 +101,10 @@
   },
   "https://matsprogram.org": {
     "canonicalName": "MATS",
+    "canonical": "default",
     "variants": {
-      "canonical": {
+      "default": {
+        "type": "lockup",
         "color": [
           {
             "file": "logos/mats/color_20260127.svg",
@@ -130,8 +138,10 @@
   },
   "https://www.redwoodresearch.org/": {
     "canonicalName": "Redwood Research",
+    "canonical": "default",
     "variants": {
-      "canonical": {
+      "default": {
+        "type": "lockup",
         "color": [
           {
             "file": "logos/redwood/color_20260127.svg",
@@ -165,8 +175,10 @@
   },
   "https://www.safer-ai.org/": {
     "canonicalName": "Safer AI",
+    "canonical": "default",
     "variants": {
-      "canonical": {
+      "default": {
+        "type": "lockup",
         "color": [
           {
             "file": "logos/saferai/color_20260127.svg",
@@ -200,8 +212,10 @@
   },
   "https://foreview.org": {
     "canonicalName": "Foreview",
+    "canonical": "default",
     "variants": {
-      "canonical": {
+      "default": {
+        "type": "lockup",
         "color": [
           {
             "file": "logos/foreview/color_20260127.svg",
@@ -230,13 +244,46 @@
             "height": 512
           }
         ]
+      },
+      "mark": {
+        "type": "mark",
+        "color": [
+          {
+            "file": "logos/foreview/mark_color_20260128.svg",
+            "type": "image/svg+xml",
+            "width": 512,
+            "height": 512
+          },
+          {
+            "file": "logos/foreview/mark_color_20260128.png",
+            "type": "image/png",
+            "width": 512,
+            "height": 512
+          }
+        ],
+        "white": [
+          {
+            "file": "logos/foreview/mark_white_20260128.svg",
+            "type": "image/svg+xml",
+            "width": 512,
+            "height": 512
+          },
+          {
+            "file": "logos/foreview/mark_white_20260128.png",
+            "type": "image/png",
+            "width": 512,
+            "height": 512
+          }
+        ]
       }
     }
   },
   "https://aisi.gov.uk/": {
     "canonicalName": "UK AI Safety Institute",
+    "canonical": "default",
     "variants": {
-      "canonical": {
+      "default": {
+        "type": "lockup",
         "color": [
           {
             "file": "logos/uk-aisi/color_20260127.svg",
@@ -270,8 +317,10 @@
   },
   "https://futureoflife.org": {
     "canonicalName": "Future of Life Institute",
+    "canonical": "default",
     "variants": {
-      "canonical": {
+      "default": {
+        "type": "lockup",
         "color": [
           {
             "file": "logos/futureoflife/color_20260127.svg",
@@ -305,8 +354,10 @@
   },
   "https://ml4good.org": {
     "canonicalName": "ML4Good",
+    "canonical": "default",
     "variants": {
-      "canonical": {
+      "default": {
+        "type": "lockup",
         "color": [
           {
             "file": "logos/ml4good/color_20260127.svg",
@@ -340,8 +391,10 @@
   },
   "https://youth-ai.org": {
     "canonicalName": "Youth AI",
+    "canonical": "default",
     "variants": {
-      "canonical": {
+      "default": {
+        "type": "lockup",
         "color": [
           {
             "file": "logos/youthai/color_20260127.svg",
@@ -375,8 +428,10 @@
   },
   "https://encode.org": {
     "canonicalName": "Encode",
+    "canonical": "default",
     "variants": {
-      "canonical": {
+      "default": {
+        "type": "lockup",
         "color": [
           {
             "file": "logos/encode/color_20260127.svg",
@@ -410,8 +465,10 @@
   },
   "https://ai-safety-atlas.com": {
     "canonicalName": "AI Safety Atlas",
+    "canonical": "default",
     "variants": {
-      "canonical": {
+      "default": {
+        "type": "wordmark",
         "color": [
           {
             "file": "logos/ai-safety-atlas/color_20260127.png",
@@ -433,8 +490,10 @@
   },
   "https://pivotalcontest.org": {
     "canonicalName": "Pivotal Contest",
+    "canonical": "default",
     "variants": {
-      "canonical": {
+      "default": {
+        "type": "lockup",
         "color": [
           {
             "file": "logos/pivotalcontest/color_20260127-a.svg",
@@ -468,8 +527,10 @@
   },
   "https://civai.org": {
     "canonicalName": "CivAI",
+    "canonical": "default",
     "variants": {
-      "canonical": {
+      "default": {
+        "type": "lockup",
         "color": [
           {
             "file": "logos/civai/color_20260128.svg",

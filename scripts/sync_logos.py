@@ -90,6 +90,11 @@ def make_file_entry(file_path: str, width: int, height: int) -> dict:
     }
 
 
+KNOWN_ORG_KEYS = {"canonicalName", "names", "canonical", "variants"}
+KNOWN_VARIANT_KEYS = {"type", "color", "white"}
+KNOWN_FILE_ENTRY_KEYS = {"file", "type", "width", "height"}
+
+
 def main():
     root = Path(__file__).parent.parent
     index_path = root / "index.json"
@@ -103,29 +108,67 @@ def main():
         if url == "$schema":
             continue
 
+        # Validate org structure
+        unknown_keys = set(org.keys()) - KNOWN_ORG_KEYS
+        if unknown_keys:
+            raise ValueError(f"Unknown keys in org '{url}': {unknown_keys}")
+        if "canonicalName" not in org:
+            raise ValueError(f"Missing 'canonicalName' in org '{url}'")
+        if "variants" not in org:
+            raise ValueError(f"Missing 'variants' in org '{url}'")
+
         new_org = {
             "canonicalName": org["canonicalName"],
         }
         if "names" in org:
             new_org["names"] = org["names"]
+        if "canonical" in org:
+            new_org["canonical"] = org["canonical"]
 
         new_variants = {}
         for variant_name, variant in org["variants"].items():
+            # Validate variant structure
+            unknown_keys = set(variant.keys()) - KNOWN_VARIANT_KEYS
+            if unknown_keys:
+                raise ValueError(
+                    f"Unknown keys in variant '{variant_name}' of '{url}': {unknown_keys}"
+                )
+
             new_variant = {}
+            if "type" in variant:
+                new_variant["type"] = variant["type"]
 
             for color_type in ["color", "white"]:
                 if color_type not in variant:
                     continue
 
-                # Handle both old (string) and new (list) formats
                 variant_value = variant[color_type]
-                if isinstance(variant_value, list):
-                    # Already converted - get the first (source) file
-                    file_path = variant_value[0]["file"]
-                else:
-                    file_path = variant_value
+                if not isinstance(variant_value, list):
+                    raise ValueError(
+                        f"Expected list for '{color_type}' in variant '{variant_name}' of '{url}', "
+                        f"got {type(variant_value).__name__}"
+                    )
+                if not variant_value:
+                    raise ValueError(
+                        f"Empty list for '{color_type}' in variant '{variant_name}' of '{url}'"
+                    )
 
+                # Validate file entries
+                for entry in variant_value:
+                    unknown_keys = set(entry.keys()) - KNOWN_FILE_ENTRY_KEYS
+                    if unknown_keys:
+                        raise ValueError(
+                            f"Unknown keys in file entry for '{color_type}' in "
+                            f"variant '{variant_name}' of '{url}': {unknown_keys}"
+                        )
+
+                # Get the first (source) file
+                file_path = variant_value[0]["file"]
                 full_path = root / file_path
+
+                if not full_path.exists():
+                    raise ValueError(f"File not found: {full_path}")
+
                 entries = []
 
                 if file_path.endswith(".svg"):
@@ -154,6 +197,9 @@ def main():
                     # Existing PNG, just get dimensions
                     width, height = get_png_dimensions(full_path)
                     entries.append(make_file_entry(file_path, width, height))
+
+                else:
+                    raise ValueError(f"Unknown file type: {file_path}")
 
                 new_variant[color_type] = entries
 
