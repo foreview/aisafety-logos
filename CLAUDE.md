@@ -12,10 +12,17 @@ Add its canonical url with scheme to <index.json>, it servers as its unique iden
 
 The canonical name is whatever most people say when mentionning them. Ask the user if you don't know. If you're aware of extra names, add them to names.
 
-You must provide at least one canonical variant for logos with a color and white version.
+You must provide at least one canonical variant for logos with a color and white version. If there is no white version, ask the user for it, unless you can trivially generate it.
+
+If the file is a SVG, optimize it with `pnpm dlx svgo input.svg -o optimized.svg`, then verify with `./scripts/svg_diff.py input.svg optimized.svg`. Exit code 0 means identical, 1 means differences found. View the diff image in `/tmp` to inspect any changes.
 
 Then validate the JSON is correct: `uvx check-jsonschema --schemafile index.schema.json index.json`
+
+Then delete any intermediate files or scripts you created in the process that are specific to this logo.
+
 Then commit: `git commit -m "new: [logo0], [logo1], [...]"`
+
+Then push.
 
 ### Changing the index
 
