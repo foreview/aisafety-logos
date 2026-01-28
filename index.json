@@ -125,5 +125,14 @@
         "white": "logos/pivotalcontest/white_20260127-a.svg"
       }
     }
+  },
+  "https://civai.org": {
+    "canonicalName": "CivAI",
+    "variants": {
+      "canonical": {
+        "color": "logos/civai/color_20260128.svg",
+        "white": "logos/civai/white_20260128.svg"
+      }
+    }
   }
 }
