@@ -4,8 +4,22 @@
     "canonicalName": "Center for Human-Compatible AI",
     "variants": {
       "canonical": {
-        "color": "logos/chai/color_20260127.png",
-        "white": "logos/chai/white_20260127.png"
+        "color": [
+          {
+            "file": "logos/chai/color_20260127.png",
+            "type": "image/png",
+            "width": 1765,
+            "height": 630
+          }
+        ],
+        "white": [
+          {
+            "file": "logos/chai/white_20260127.png",
+            "type": "image/png",
+            "width": 1765,
+            "height": 630
+          }
+        ]
       }
     }
   },
@@ -13,8 +27,34 @@
     "canonicalName": "French Center for AI Safety",
     "variants": {
       "canonical": {
-        "color": "logos/cesia/color_20260127.svg",
-        "white": "logos/cesia/white_20260127.svg"
+        "color": [
+          {
+            "file": "logos/cesia/color_20260127.svg",
+            "type": "image/svg+xml",
+            "width": 1623,
+            "height": 512
+          },
+          {
+            "file": "logos/cesia/color_20260127.png",
+            "type": "image/png",
+            "width": 1623,
+            "height": 512
+          }
+        ],
+        "white": [
+          {
+            "file": "logos/cesia/white_20260127.svg",
+            "type": "image/svg+xml",
+            "width": 1592,
+            "height": 512
+          },
+          {
+            "file": "logos/cesia/white_20260127.png",
+            "type": "image/png",
+            "width": 1592,
+            "height": 512
+          }
+        ]
       }
     }
   },
@@ -22,8 +62,34 @@
     "canonicalName": "Coefficient Giving",
     "variants": {
       "canonical": {
-        "color": "logos/coefficientgiving/color_20260127.svg",
-        "white": "logos/coefficientgiving/white_20260127.svg"
+        "color": [
+          {
+            "file": "logos/coefficientgiving/color_20260127.svg",
+            "type": "image/svg+xml",
+            "width": 4298,
+            "height": 512
+          },
+          {
+            "file": "logos/coefficientgiving/color_20260127.png",
+            "type": "image/png",
+            "width": 4298,
+            "height": 512
+          }
+        ],
+        "white": [
+          {
+            "file": "logos/coefficientgiving/white_20260127.svg",
+            "type": "image/svg+xml",
+            "width": 4298,
+            "height": 512
+          },
+          {
+            "file": "logos/coefficientgiving/white_20260127.png",
+            "type": "image/png",
+            "width": 4298,
+            "height": 512
+          }
+        ]
       }
     }
   },
@@ -31,8 +97,34 @@
     "canonicalName": "MATS",
     "variants": {
       "canonical": {
-        "color": "logos/mats/color_20260127.svg",
-        "white": "logos/mats/white_20260127.svg"
+        "color": [
+          {
+            "file": "logos/mats/color_20260127.svg",
+            "type": "image/svg+xml",
+            "width": 1982,
+            "height": 512
+          },
+          {
+            "file": "logos/mats/color_20260127.png",
+            "type": "image/png",
+            "width": 1982,
+            "height": 512
+          }
+        ],
+        "white": [
+          {
+            "file": "logos/mats/white_20260127.svg",
+            "type": "image/svg+xml",
+            "width": 1982,
+            "height": 512
+          },
+          {
+            "file": "logos/mats/white_20260127.png",
+            "type": "image/png",
+            "width": 1982,
+            "height": 512
+          }
+        ]
       }
     }
   },
@@ -40,8 +132,34 @@
     "canonicalName": "Redwood Research",
     "variants": {
       "canonical": {
-        "color": "logos/redwood/color_20260127.svg",
-        "white": "logos/redwood/white_20260127.svg"
+        "color": [
+          {
+            "file": "logos/redwood/color_20260127.svg",
+            "type": "image/svg+xml",
+            "width": 1956,
+            "height": 512
+          },
+          {
+            "file": "logos/redwood/color_20260127.png",
+            "type": "image/png",
+            "width": 1956,
+            "height": 512
+          }
+        ],
+        "white": [
+          {
+            "file": "logos/redwood/white_20260127.svg",
+            "type": "image/svg+xml",
+            "width": 1956,
+            "height": 512
+          },
+          {
+            "file": "logos/redwood/white_20260127.png",
+            "type": "image/png",
+            "width": 1956,
+            "height": 512
+          }
+        ]
       }
     }
   },
@@ -49,8 +167,34 @@
     "canonicalName": "Safer AI",
     "variants": {
       "canonical": {
-        "color": "logos/saferai/color_20260127.svg",
-        "white": "logos/saferai/white_20260127.svg"
+        "color": [
+          {
+            "file": "logos/saferai/color_20260127.svg",
+            "type": "image/svg+xml",
+            "width": 2225,
+            "height": 512
+          },
+          {
+            "file": "logos/saferai/color_20260127.png",
+            "type": "image/png",
+            "width": 2225,
+            "height": 512
+          }
+        ],
+        "white": [
+          {
+            "file": "logos/saferai/white_20260127.svg",
+            "type": "image/svg+xml",
+            "width": 2225,
+            "height": 512
+          },
+          {
+            "file": "logos/saferai/white_20260127.png",
+            "type": "image/png",
+            "width": 2225,
+            "height": 512
+          }
+        ]
       }
     }
   },
@@ -58,8 +202,34 @@
     "canonicalName": "Foreview",
     "variants": {
       "canonical": {
-        "color": "logos/foreview/color_20260127.svg",
-        "white": "logos/foreview/white_20260127.svg"
+        "color": [
+          {
+            "file": "logos/foreview/color_20260127.svg",
+            "type": "image/svg+xml",
+            "width": 1755,
+            "height": 512
+          },
+          {
+            "file": "logos/foreview/color_20260127.png",
+            "type": "image/png",
+            "width": 1755,
+            "height": 512
+          }
+        ],
+        "white": [
+          {
+            "file": "logos/foreview/white_20260127.svg",
+            "type": "image/svg+xml",
+            "width": 1755,
+            "height": 512
+          },
+          {
+            "file": "logos/foreview/white_20260127.png",
+            "type": "image/png",
+            "width": 1755,
+            "height": 512
+          }
+        ]
       }
     }
   },
@@ -67,8 +237,34 @@
     "canonicalName": "UK AI Safety Institute",
     "variants": {
       "canonical": {
-        "color": "logos/uk-aisi/color_20260127.svg",
-        "white": "logos/uk-aisi/white_20260127.svg"
+        "color": [
+          {
+            "file": "logos/uk-aisi/color_20260127.svg",
+            "type": "image/svg+xml",
+            "width": 3050,
+            "height": 512
+          },
+          {
+            "file": "logos/uk-aisi/color_20260127.png",
+            "type": "image/png",
+            "width": 3050,
+            "height": 512
+          }
+        ],
+        "white": [
+          {
+            "file": "logos/uk-aisi/white_20260127.svg",
+            "type": "image/svg+xml",
+            "width": 3050,
+            "height": 512
+          },
+          {
+            "file": "logos/uk-aisi/white_20260127.png",
+            "type": "image/png",
+            "width": 3050,
+            "height": 512
+          }
+        ]
       }
     }
   },
@@ -76,8 +272,34 @@
     "canonicalName": "Future of Life Institute",
     "variants": {
       "canonical": {
-        "color": "logos/futureoflife/color_20260127.svg",
-        "white": "logos/futureoflife/white_20260127.svg"
+        "color": [
+          {
+            "file": "logos/futureoflife/color_20260127.svg",
+            "type": "image/svg+xml",
+            "width": 750,
+            "height": 512
+          },
+          {
+            "file": "logos/futureoflife/color_20260127.png",
+            "type": "image/png",
+            "width": 750,
+            "height": 512
+          }
+        ],
+        "white": [
+          {
+            "file": "logos/futureoflife/white_20260127.svg",
+            "type": "image/svg+xml",
+            "width": 748,
+            "height": 512
+          },
+          {
+            "file": "logos/futureoflife/white_20260127.png",
+            "type": "image/png",
+            "width": 748,
+            "height": 512
+          }
+        ]
       }
     }
   },
@@ -85,8 +307,34 @@
     "canonicalName": "ML4Good",
     "variants": {
       "canonical": {
-        "color": "logos/ml4good/color_20260127.svg",
-        "white": "logos/ml4good/white_20260127.svg"
+        "color": [
+          {
+            "file": "logos/ml4good/color_20260127.svg",
+            "type": "image/svg+xml",
+            "width": 2564,
+            "height": 512
+          },
+          {
+            "file": "logos/ml4good/color_20260127.png",
+            "type": "image/png",
+            "width": 2564,
+            "height": 512
+          }
+        ],
+        "white": [
+          {
+            "file": "logos/ml4good/white_20260127.svg",
+            "type": "image/svg+xml",
+            "width": 2564,
+            "height": 512
+          },
+          {
+            "file": "logos/ml4good/white_20260127.png",
+            "type": "image/png",
+            "width": 2564,
+            "height": 512
+          }
+        ]
       }
     }
   },
@@ -94,8 +342,34 @@
     "canonicalName": "Youth AI",
     "variants": {
       "canonical": {
-        "color": "logos/youthai/color_20260127.svg",
-        "white": "logos/youthai/white_20260127.svg"
+        "color": [
+          {
+            "file": "logos/youthai/color_20260127.svg",
+            "type": "image/svg+xml",
+            "width": 2437,
+            "height": 512
+          },
+          {
+            "file": "logos/youthai/color_20260127.png",
+            "type": "image/png",
+            "width": 2437,
+            "height": 512
+          }
+        ],
+        "white": [
+          {
+            "file": "logos/youthai/white_20260127.svg",
+            "type": "image/svg+xml",
+            "width": 2437,
+            "height": 512
+          },
+          {
+            "file": "logos/youthai/white_20260127.png",
+            "type": "image/png",
+            "width": 2437,
+            "height": 512
+          }
+        ]
       }
     }
   },
@@ -103,8 +377,34 @@
     "canonicalName": "Encode",
     "variants": {
       "canonical": {
-        "color": "logos/encode/color_20260127.svg",
-        "white": "logos/encode/white_20260127.svg"
+        "color": [
+          {
+            "file": "logos/encode/color_20260127.svg",
+            "type": "image/svg+xml",
+            "width": 2591,
+            "height": 512
+          },
+          {
+            "file": "logos/encode/color_20260127.png",
+            "type": "image/png",
+            "width": 2591,
+            "height": 512
+          }
+        ],
+        "white": [
+          {
+            "file": "logos/encode/white_20260127.svg",
+            "type": "image/svg+xml",
+            "width": 2591,
+            "height": 512
+          },
+          {
+            "file": "logos/encode/white_20260127.png",
+            "type": "image/png",
+            "width": 2591,
+            "height": 512
+          }
+        ]
       }
     }
   },
@@ -112,8 +412,22 @@
     "canonicalName": "AI Safety Atlas",
     "variants": {
       "canonical": {
-        "color": "logos/ai-safety-atlas/color_20260127.png",
-        "white": "logos/ai-safety-atlas/white_20260127.png"
+        "color": [
+          {
+            "file": "logos/ai-safety-atlas/color_20260127.png",
+            "type": "image/png",
+            "width": 865,
+            "height": 391
+          }
+        ],
+        "white": [
+          {
+            "file": "logos/ai-safety-atlas/white_20260127.png",
+            "type": "image/png",
+            "width": 865,
+            "height": 391
+          }
+        ]
       }
     }
   },
@@ -121,8 +435,34 @@
     "canonicalName": "Pivotal Contest",
     "variants": {
       "canonical": {
-        "color": "logos/pivotalcontest/color_20260127-a.svg",
-        "white": "logos/pivotalcontest/white_20260127-a.svg"
+        "color": [
+          {
+            "file": "logos/pivotalcontest/color_20260127-a.svg",
+            "type": "image/svg+xml",
+            "width": 1738,
+            "height": 512
+          },
+          {
+            "file": "logos/pivotalcontest/color_20260127-a.png",
+            "type": "image/png",
+            "width": 1738,
+            "height": 512
+          }
+        ],
+        "white": [
+          {
+            "file": "logos/pivotalcontest/white_20260127-a.svg",
+            "type": "image/svg+xml",
+            "width": 1738,
+            "height": 512
+          },
+          {
+            "file": "logos/pivotalcontest/white_20260127-a.png",
+            "type": "image/png",
+            "width": 1738,
+            "height": 512
+          }
+        ]
       }
     }
   },
@@ -130,8 +470,34 @@
     "canonicalName": "CivAI",
     "variants": {
       "canonical": {
-        "color": "logos/civai/color_20260128.svg",
-        "white": "logos/civai/white_20260128.svg"
+        "color": [
+          {
+            "file": "logos/civai/color_20260128.svg",
+            "type": "image/svg+xml",
+            "width": 1805,
+            "height": 512
+          },
+          {
+            "file": "logos/civai/color_20260128.png",
+            "type": "image/png",
+            "width": 1805,
+            "height": 512
+          }
+        ],
+        "white": [
+          {
+            "file": "logos/civai/white_20260128.svg",
+            "type": "image/svg+xml",
+            "width": 1805,
+            "height": 512
+          },
+          {
+            "file": "logos/civai/white_20260128.png",
+            "type": "image/png",
+            "width": 1805,
+            "height": 512
+          }
+        ]
       }
     }
   }

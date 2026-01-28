@@ -53,15 +53,50 @@
       "description": "A logo variant with color and white versions",
       "properties": {
         "color": {
-          "type": "string",
-          "description": "Filename of the color version"
+          "$ref": "#/$defs/fileList",
+          "description": "Color version files, ordered by fidelity (vector first)"
         },
         "white": {
-          "type": "string",
-          "description": "Filename of the white version"
+          "$ref": "#/$defs/fileList",
+          "description": "White version files, ordered by fidelity (vector first)"
         }
       },
       "required": ["color", "white"],
+      "additionalProperties": false
+    },
+    "fileList": {
+      "type": "array",
+      "description": "List of equivalent files in different formats, ordered by fidelity",
+      "items": {
+        "$ref": "#/$defs/fileEntry"
+      },
+      "minItems": 1
+    },
+    "fileEntry": {
+      "type": "object",
+      "description": "A single file with metadata",
+      "properties": {
+        "file": {
+          "type": "string",
+          "description": "Path to the file relative to repository root"
+        },
+        "type": {
+          "type": "string",
+          "description": "MIME type of the file",
+          "enum": ["image/svg+xml", "image/png"]
+        },
+        "width": {
+          "type": "integer",
+          "description": "Width in pixels",
+          "minimum": 1
+        },
+        "height": {
+          "type": "integer",
+          "description": "Height in pixels",
+          "minimum": 1
+        }
+      },
+      "required": ["file", "type", "width", "height"],
       "additionalProperties": false
     }
   }
