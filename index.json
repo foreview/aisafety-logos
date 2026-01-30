@@ -525,6 +525,31 @@
       }
     }
   },
+  "https://manifund.org": {
+    "canonicalName": "Manifund",
+    "canonical": "default",
+    "variants": {
+      "default": {
+        "type": "mark",
+        "color": [
+          {
+            "file": "logos/manifund/color_20260130.png",
+            "type": "image/png",
+            "width": 256,
+            "height": 256
+          }
+        ],
+        "white": [
+          {
+            "file": "logos/manifund/white_20260130.png",
+            "type": "image/png",
+            "width": 256,
+            "height": 256
+          }
+        ]
+      }
+    }
+  },
   "https://civai.org": {
     "canonicalName": "CivAI",
     "canonical": "default",
