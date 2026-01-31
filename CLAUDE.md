@@ -1,3 +1,12 @@
+### Overview 
+
+This project is a repository for high-quality logos of AI Safety organizations. Used by Foreview in various projects.
+
+Logos are stored in logos/<name of organization>/. They are referenced from an index.json file that must respect the index.schema.json.
+
+On push, the site is deployed to Github Pages.
+
+
 ### Fetching things
 
 The WebFetch tool does not give you access to the code. Use curl when you're looking for the code and WebFetch when you're looking for information.
