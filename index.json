@@ -629,5 +629,52 @@
         ]
       }
     }
+  },
+  "https://www.enais.co": {
+    "canonicalName": "European Network for AI Safety",
+    "names": [
+      "ENAIS"
+    ],
+    "canonical": "default",
+    "variants": {
+      "default": {
+        "type": "lockup",
+        "color": [
+          {
+            "file": "logos/enais/lockup_color_20260201.png",
+            "type": "image/png",
+            "width": 1029,
+            "height": 217
+          }
+        ],
+        "white": [
+          {
+            "file": "logos/enais/lockup_white_20260201.png",
+            "type": "image/png",
+            "width": 1029,
+            "height": 217
+          }
+        ]
+      },
+      "mark": {
+        "type": "mark",
+        "color": [
+          {
+            "file": "logos/enais/mark_color_20260201.png",
+            "type": "image/png",
+            "width": 210,
+            "height": 210
+          }
+        ],
+        "white": [
+          {
+            "file": "logos/enais/mark_white_20260201.png",
+            "type": "image/png",
+            "width": 210,
+            "height": 210
+          }
+        ]
+      }
+    }
   }
 }
