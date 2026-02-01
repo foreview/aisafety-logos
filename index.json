@@ -676,5 +676,42 @@
         ]
       }
     }
+  },
+  "https://bluedot.org": {
+    "canonicalName": "BlueDot Impact",
+    "canonical": "default",
+    "variants": {
+      "default": {
+        "type": "lockup",
+        "color": [
+          {
+            "file": "logos/bluedot/color_20260201.svg",
+            "type": "image/svg+xml",
+            "width": 3861,
+            "height": 512
+          },
+          {
+            "file": "logos/bluedot/color_20260201.png",
+            "type": "image/png",
+            "width": 3861,
+            "height": 512
+          }
+        ],
+        "white": [
+          {
+            "file": "logos/bluedot/white_20260201.svg",
+            "type": "image/svg+xml",
+            "width": 3861,
+            "height": 512
+          },
+          {
+            "file": "logos/bluedot/white_20260201.png",
+            "type": "image/png",
+            "width": 3861,
+            "height": 512
+          }
+        ]
+      }
+    }
   }
 }
