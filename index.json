@@ -386,6 +386,37 @@
             "height": 512
           }
         ]
+      },
+      "mark": {
+        "type": "mark",
+        "color": [
+          {
+            "file": "logos/ml4good/mark_color_20260219.svg",
+            "type": "image/svg+xml",
+            "width": 541,
+            "height": 512
+          },
+          {
+            "file": "logos/ml4good/mark_color_20260219.png",
+            "type": "image/png",
+            "width": 541,
+            "height": 512
+          }
+        ],
+        "white": [
+          {
+            "file": "logos/ml4good/mark_white_20260219.svg",
+            "type": "image/svg+xml",
+            "width": 541,
+            "height": 512
+          },
+          {
+            "file": "logos/ml4good/mark_white_20260219.png",
+            "type": "image/png",
+            "width": 541,
+            "height": 512
+          }
+        ]
       }
     }
   },
