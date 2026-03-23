@@ -23,7 +23,7 @@ The canonical name is whatever most people say when mentionning them. Ask the us
 
 You must provide at least one canonical variant for logos with a color and white version. If there is no white version, ask the user for it, unless you can trivially generate it.
 
-If the file is a SVG, optimize it with `pnpm dlx svgo input.svg -o optimized.svg`, then verify with `./scripts/svg_diff.py input.svg optimized.svg`. Exit code 0 means identical, 1 means differences found. View the diff image in `/tmp` to inspect any changes. 
+If the file is a SVG, optimize it with `pnpm dlx svgo input.svg -o optimized.svg`, then verify with `./scripts/svg_diff.py input.svg optimized.svg`. Exit code 0 means identical, 1 means differences found. View the diff image in `/tmp` to inspect any changes. Check dimensions with `identify` before reading images — the API rejects images over 8000px.
 
 Then run uv run ./scripts/sync_logos.py which generates PNGs for SVGs (at a 512px target height) and updates the width+height attributes for SVGs.
 

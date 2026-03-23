@@ -533,29 +533,29 @@
         "type": "mark",
         "color": [
           {
-            "file": "logos/ai-safety-atlas/mark_color_20260131.svg",
+            "file": "logos/ai-safety-atlas/mark_color_20260323.svg",
             "type": "image/svg+xml",
-            "width": 512,
+            "width": 518,
             "height": 512
           },
           {
-            "file": "logos/ai-safety-atlas/mark_color_20260131.png",
+            "file": "logos/ai-safety-atlas/mark_color_20260323.png",
             "type": "image/png",
-            "width": 512,
+            "width": 518,
             "height": 512
           }
         ],
         "white": [
           {
-            "file": "logos/ai-safety-atlas/mark_white_20260131.svg",
+            "file": "logos/ai-safety-atlas/mark_white_20260323.svg",
             "type": "image/svg+xml",
-            "width": 512,
+            "width": 518,
             "height": 512
           },
           {
-            "file": "logos/ai-safety-atlas/mark_white_20260131.png",
+            "file": "logos/ai-safety-atlas/mark_white_20260323.png",
             "type": "image/png",
-            "width": 512,
+            "width": 518,
             "height": 512
           }
         ]
